@@ -39,6 +39,7 @@ document.querySelector('.check').addEventListener('click', function () {
     if (score == 0) {
       displayMessage('Game  Over!❌');
       document.querySelector('.check').style.display = 'none';
+      document.querySelector('.number').textContent = secretNumber;
     }
   }
 });
